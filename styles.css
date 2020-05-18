@@ -1,0 +1,40 @@
+/*Estilos CSS para la página html*/
+.mid { height: 12em; width: 430px; }
+.midpro { height: 2em; width: 400px;}
+.blue { background-color: steelblue; }
+.green { background-color: lightgreen; }
+.coral { background-color: lightcoral; }
+.purple { background-color: mediumslateblue; }
+/*.black { color: black }*/
+/*Imagen fondo*/
+/*body { background-image: url("coffee.gif"); }*/
+/*Color letra*/
+body { color: black; weight:bold;}
+/*Color fondo procesos*/
+body { background-color: mediumseagreen; width: 430px; }
+/*Color aleatorio*/
+.jobc {
+    background-color: #fff;
+    -webkit-animation: random 5s infinite;
+    animation: random 5s infinite;
+}
+@keyframes  random {
+    15% { background-color: orangered; }
+    30% { background-color: yellow; }
+    45% { background-color: green; }
+    60% { background-color: blue; }
+    75% { background-color: purple; }
+    20% { background-color: #FFB399; }
+    25% { background-color: #FF33FF; }
+    35% { background-color: #99FF99; }
+    40% { background-color: #B34D4D; }
+    50% { background-color: #80B300; }
+    55% { background-color: red; }
+    65% { background-color: #E6B3B3; }
+    70% { background-color: #6680B3; }
+    80% { background-color: #66991A; }
+    85% { background-color: #FF99E6; }
+    90% { background-color: #CCFF1A; }
+    95% { background-color: #99E6E6; }
+}
+/**/
